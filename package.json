@@ -1,0 +1,27 @@
+{
+  "name": "divyanshu-packager",
+  "version": "1.0.0",
+  "description": "Divyanshu's Colorify - A library to colorify console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "colorify",
+    "console",
+    "logs",
+    "divyanshu",
+    "divyanshu's-packager"
+  ],
+  "author": "Divyanshu Urmaliya",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+
+ "files": ["lib/**/*"]
+
+
+}
